@@ -1,4 +1,9 @@
-body {
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       margin: 0;
@@ -22,7 +27,17 @@ body {
 
     #notification {
       width: 30vw;
-      height: 74vh;
+      height: 33.5vh;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    #form {
+      margin-top: 2vh;
+      width: 30vw;
+      height: 33.5vh;
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -36,4 +51,13 @@ body {
 
     .text-center {
       text-align: center;
+    }
+
+    .container {
+      margin-top: 4vh;
+    }
+
+    .title-text {
+      font-size: 24px;
+      font-weight: bold;
     }

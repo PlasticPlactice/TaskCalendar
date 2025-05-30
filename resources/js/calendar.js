@@ -1,3 +1,8 @@
+import '../css/calendar.css';
+
+const CreateButton = document.getElementById('create-button');
+const EditButton = document.getElementById('edit-button');
+
 document.addEventListener("DOMContentLoaded", function () {
     const calendarEl = document.getElementById("calendar");
 
@@ -12,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
             },
         ],
         dateClick: function (info) {
-            alert(info.dateStr + " がクリックされました");
+            CreateButton.hidden = false;
+            EditButton.hidden = false;
         },
     });
 
